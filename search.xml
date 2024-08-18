@@ -8,7 +8,7 @@
       <link href="/%E6%95%99%E7%A8%8B/34987.html"/>
       <url>/%E6%95%99%E7%A8%8B/34987.html</url>
       
-        <content type="html"><![CDATA[<p>正常账号可以进入游戏，只要设置成PM就进不去<br>这种情况通常是gm设置了 指定IP登录地址<br>用gm工具读取这个账号之前登录的IP，复制下来，然后在设置pm指定登录IP那粘贴进去就可以了</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="gm工具临时解决"><a href="#gm工具临时解决" class="headerlink" title="gm工具临时解决"></a>gm工具临时解决</h1><p>正常账号可以进入游戏，只要设置成PM就进不去<br>这种情况通常是gm设置了 指定IP登录地址<br>用gm工具读取这个账号之前登录的IP，复制下来，然后在设置pm指定登录IP那粘贴进去就可以了</p><h1 id="彻底清除pm指定IP"><a href="#彻底清除pm指定IP" class="headerlink" title="彻底清除pm指定IP"></a>彻底清除pm指定IP</h1><p>用Navicat打开数据库，找到cq_config表并打开<br>找到type为1031的直接把整条记录删除即可<br>完成后，重启引擎、重新打开登录器就可以了</p>]]></content>
       
       
       <categories>
